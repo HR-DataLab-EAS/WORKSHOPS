@@ -45,6 +45,6 @@ Met deze repository kun je **images** en **files** (zoals `.json` en `.csv`) onl
 ```python
 import pandas as pd
 
-url = "https://raw.githubusercontent.com/HR-DataLab-EAS/IMAGES-FILES-BML-PROJECTEN/main/FILES/data.csv"
+url = "https://raw.githubusercontent.com/HR-DataLab-EAS/WORKSHOPS/main/FILES/data.csv"
 df = pd.read_csv(url)
 print(df.head())
